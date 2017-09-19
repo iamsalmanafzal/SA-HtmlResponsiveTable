@@ -778,7 +778,7 @@ table.sa-table.responsiveFirstColumn tbody tr:not(.depart).open span.tr-button {
         top: 0px;
         right: 0px;
         cursor: pointer;
-        z-index: 999;
+        z-index: 10;
         height: 100%;
         -webkit-border-top-right-radius: 6px;
         -moz-border-top-right-radius: 6px;
