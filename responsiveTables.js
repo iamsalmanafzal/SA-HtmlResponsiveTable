@@ -6,7 +6,6 @@ function responsiveTable(elem) {
 
         $(this).find('td').each(function(index, elem){
             var classCheck = $(this).hasClass('checkbox_row');
-            console.log('classCheck', classCheck)
             var title = $(this).parents('table').find('thead th:eq('+index+')').text();
             if(index == 0) {
                 if(classCheck) {
